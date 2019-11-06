@@ -65,7 +65,7 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 + [Seleção](tutorial/selecao.md)
 + [Repetição](tutorial/repeticao.md), Aula Prática
 
-(Prova 01: 05/11) - revisado
+(Prova 01: 12/11) - revisado
 
 + Vetores
 + Strings
