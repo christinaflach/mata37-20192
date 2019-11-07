@@ -68,7 +68,7 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 (Prova 01: 12/11) - revisado
 
 + [Funções](https://rodrigorgs.github.io/aulas/mata37/funcoes#1)
-+ Vetores
++ [Vetores](https://rodrigorgs.github.io/aulas/mata37/vetores#1)
 + Strings
 + Matrizes
 + Ordenação
