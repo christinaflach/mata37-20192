@@ -25,4 +25,4 @@ int main() {
 
 2. Escreva uma função que calcula n!
 
-3. Escreva um programa que leia dois inteiros m e n, com m>= n, e calcula C(m,n) = m! / n!(m-n)! Usar função da questão 2.
+3. Escreva um programa que leia dois inteiros m e n, com m>= n, e calcula C(m,n) = m! / (n!(m-n)!) Usar função da questão 2.
