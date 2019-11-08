@@ -1,5 +1,7 @@
 # Exercícios com Inteiros
 
+Observação: exercícios opcionais são 20, 21, 22, 23 e 24.
+
 ### 1.  Dada uma seqüência de números inteiros não-nulos, seguida por 0, imprimir seus quadrados. 
 
    + Entrada. Sequência de números inteiros não-nulos, seguida por 0.
@@ -125,7 +127,7 @@ F1 = 1, F2 = 1 e  Fi = Fi-1 + Fi-2, para i >= 3.
 
 ### 19.  Dados três números, imprimi-los em ordem crescente. 
 
-### 20. Qualquer número natural de quatro algarismos pode ser dividido em duas dezenas formadas pelos seus dois primeiros e dois últimos dígitos.
+### *20. Qualquer número natural de quatro algarismos pode ser dividido em duas dezenas formadas pelos seus dois primeiros e dois últimos dígitos.
 
 Exemplos:
 1297: 12 e 97.
@@ -137,11 +139,11 @@ Escreva um programa que imprime todos os milhares (4 algarismos) cuja raiz quadr
 Exemplo: raiz de 9801 = 99 = 98 + 01. 
 Portanto 9801 é um dos números a ser impresso.
 
-### 21. Dados n e uma seqüência de n números inteiros, determinar quantos segmentos de números iguais consecutivos compõem essa seqüência.
+### *21. Dados n e uma seqüência de n números inteiros, determinar quantos segmentos de números iguais consecutivos compõem essa seqüência.
 
 Exemplo: A seguinte seqüência é formada por 5 segmentos de números iguais:   5,  2,  2,  3,  4,  4,  4,  4,  1,  1 
 
-### 22.  Dados n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de comprimento máximo.
+### *22.  Dados n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de comprimento máximo.
 
 Exemplos:
 
@@ -149,7 +151,7 @@ Na seqüência   5  10  3  2  4  7  9  8  5,   o comprimento do segmento crescen
 
 Na seqüência   10  8  7  5  2,  o comprimento de um segmento crescente máximo é 1. 
 
-### 23.  Dizemos que um número natural n é palíndromo (3) se o 1º algarismo de n é igual ao seu último algarismo, o 2º algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
+### *23.  Dizemos que um número natural n é palíndromo (3) se o 1º algarismo de n é igual ao seu último algarismo, o 2º algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
 
 Exemplos:
 
@@ -159,7 +161,7 @@ Exemplos:
 
 Dado um número natural n > 10 , verificar se n é palíndromo. 
 
-### 24.  São dados dois números inteiros positivos p e q, sendo que o número de dígitos de p é menor ou igual ao número de dígitos de q. Verificar se p é um subnúmero de q.
+### *24.  São dados dois números inteiros positivos p e q, sendo que o número de dígitos de p é menor ou igual ao número de dígitos de q. Verificar se p é um subnúmero de q.
 
 Exemplos:
 p = 23, q = 57238, p é subnúmero de q.
