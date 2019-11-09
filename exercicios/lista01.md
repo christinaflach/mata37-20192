@@ -41,6 +41,12 @@ Observação: exercícios opcionais são 20, 21, 22, 23 e 24.
    + Exemplo.
       - Entrada: 30 24 10 32 67 55 40
       - Saída: Maior venda da semana: sexta-feira, 67 disco(s)
+      
+      - Entrada: 30 24 10 32 67 75 40
+      - Saída: Maior venda da semana: sábado, 75 disco(s)
+      
+      - Entrada: 70 24 10 32 67 55 40
+      - Saída: Maior venda da semana: segunda-feira, 70 disco(s)
 
 ### 6.  Dados o número n de alunos de uma turma e suas notas da primeira prova, 
 determinar a maior e a menor nota obtidas por essa turma (Nota máxima = 100 e nota mínima = 0). 
