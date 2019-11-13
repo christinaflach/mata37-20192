@@ -149,13 +149,13 @@ Portanto 9801 é um dos números a ser impresso.
 
 Exemplo: A seguinte seqüência é formada por 5 segmentos de números iguais:   5,  2,  2,  3,  4,  4,  4,  4,  1,  1 
 
-### *22.  Dados n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de comprimento máximo.
+### *22.  Dados n e uma seqüência de n números inteiros, determinar o comprimento de um segmento (sub-sequência) crescente de comprimento máximo.
 
 Exemplos:
 
-Na seqüência   5  10  3  2  4  7  9  8  5,   o comprimento do segmento crescente máximo é 4.
+Na entrada 8 10 3 2 4 7 9 8 5, o comprimento do segmento crescente máximo de _10 3 2 4 7 9 8 5_ é 4.
 
-Na seqüência   10  8  7  5  2,  o comprimento de um segmento crescente máximo é 1. 
+Na entrada 5 10 8 7 5 2, o comprimento de um segmento crescente máximo de _10 8 7 5 2_ é 1. 
 
 ### *23.  Dizemos que um número natural n é palíndromo se o 1o. algarismo de n é igual ao seu último algarismo, o 2o. algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
 
