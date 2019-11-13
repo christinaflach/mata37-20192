@@ -157,7 +157,7 @@ Na seqüência   5  10  3  2  4  7  9  8  5,   o comprimento do segmento crescen
 
 Na seqüência   10  8  7  5  2,  o comprimento de um segmento crescente máximo é 1. 
 
-### *23.  Dizemos que um número natural n é palíndromo (3) se o 1º algarismo de n é igual ao seu último algarismo, o 2º algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
+### *23.  Dizemos que um número natural n é palíndromo se o 1o. algarismo de n é igual ao seu último algarismo, o 2o. algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
 
 Exemplos:
 
