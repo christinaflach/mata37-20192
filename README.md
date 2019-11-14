@@ -67,13 +67,12 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 
 (Prova 01: 12/11) - revisado
 
-+ [Funções](https://rodrigorgs.github.io/aulas/mata37/funcoes#1)
++ [Funções](https://rodrigorgs.github.io/aulas/mata37/funcoes#1), [Prática](tutorial/aulapratica-funcao.md)
++ Recursão
 + [Vetores](https://rodrigorgs.github.io/aulas/mata37/vetores#1)
 + Strings
 + Matrizes
-+ Ordenação
-+ Busca Binária
-+ Recursão
++ Ordenação e Busca Binária
 
 (Prova 02: 5/12) - revisado
 
