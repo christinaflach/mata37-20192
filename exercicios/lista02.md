@@ -1,4 +1,6 @@
-## Exercícios sobre "Sequência" - selecionados do URI
+## Exercícios sobre "Sequência"
+
+Ver exercícios selecionados do URI.
 
    + 1002 - Área do Círculo
    + 1003 - Soma Simples

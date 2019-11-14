@@ -6,6 +6,11 @@
    + 22/10
       - [Lista 01](exercicios/lista01.md)
       
+## Roteiros
+
+   + 07/11 (Roteiro de aula prática)
+      - [Funções](exercicios/exercicio07-funcoes.md)
+      
 ## Avulsos
 Exercícios individuais serão postados no [Google Classroom](https://classroom.google.com) da turma, clique no botão `+` e digite o código `ge8vtrr`. 
 
