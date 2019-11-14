@@ -174,7 +174,7 @@ p = 23, q = 57238, p é subnúmero de q.
 p = 23, q = 258347, p não é subnúmero de q.
 
 
-### 25.  Simule a execução do programa abaixo destacando a sua saída:
+### *25.  Simule a execução do programa abaixo destacando a sua saída:
 
 ```
 int main()
