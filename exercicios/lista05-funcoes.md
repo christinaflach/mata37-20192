@@ -1,4 +1,4 @@
-Lista de Exercícios - Funções
+## Lista de Exercícios - Funções
 
 1. Escreva uma função que calcula n!
 
