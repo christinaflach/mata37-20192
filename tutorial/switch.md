@@ -41,18 +41,8 @@ switch (expressão) {
 
 # switch
 
-Se esquecer de escrever o break, a execução continua nas instruções do próximo `case` (o que pode ser desejado ou não).
+Se esquecer de escrever o _break_, a execução continua nas instruções do próximo `case` (o que pode ser desejado ou não).
 
----
 
-# Exemplo: 8-ball
-
-O usuário faz uma pergunta e o programa responde uma das seguintes frases:
-
-- Sim!
-- Não!
-- Talvez!
-
-Usar o gerador de números aleatórios.
 
 
