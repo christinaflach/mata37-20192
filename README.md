@@ -68,7 +68,7 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 (Prova 01: 12/11) - revisado
 
 + [Funções 1](https://rodrigorgs.github.io/aulas/mata37/funcoes#1), [Funções 2](https://www.ime.usp.br/~hitoshi/introducao/16-funcao02.pdf), [Prática](tutorial/aulapratica-funcao.md)
-+ [Funções recursivas](https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html)
++ [Funções recursivas](tutorial/recursao.md)
 + [Vetores](https://rodrigorgs.github.io/aulas/mata37/vetores#1)
 + Strings
 + Matrizes
