@@ -11,7 +11,14 @@ Em C/C++, as principais estruturas de seleção são as seguintes:
 
 ---
 
-# switch
+## Comando break
+
+O comando _break_ realiza um desvio incondicional, com dois usos mais conhecidos:
+
+   1. Saída de um comando _switch..case_ (mostrado a seguir).
+   2. Saída de um laço de repetição
+
+## Comando switch
 
 ```c++
 switch (expressão) {
@@ -39,7 +46,7 @@ switch (expressão) {
 
 ---
 
-# switch
+## switch
 
 Se esquecer de escrever o _break_, a execução continua nas instruções do próximo `case` (o que pode ser desejado ou não).
 
