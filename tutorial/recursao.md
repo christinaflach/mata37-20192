@@ -24,7 +24,7 @@ int fat(int n){
 }
 ```
 
-# Série de Fibonacci (0,1,1,2,3,5,8,13,...)
+## Série de Fibonacci (0,1,1,2,3,5,8,13,...)
 
 ### Versão sem recursão
 
@@ -51,3 +51,7 @@ int fib(int n){
   return fib(n-1) + fib(n-2);
 }
 ```
+
+## Torres de Hanoi
+
+Pesquisar.
