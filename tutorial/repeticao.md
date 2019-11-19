@@ -336,6 +336,11 @@ int main() {
 `(cin >> i)` lê um número da entrada padrão, atribui o número à variável `i`, e retorna falso se a leitura não é bem sucedida.
 
 
+# Leia sobre os comandos `break` e `continue`
+
+Pesquise sobre estes dois comandos da linguagem C e como podem ser usados em comandos de repetição.
+
+
 ---
 
 Parte deste material foi baseado nos slides do prof. Mauricio Pamplona
