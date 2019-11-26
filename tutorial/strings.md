@@ -16,7 +16,7 @@ Material suplementar:
 
 Há informação que não é numérica, por exemplo, nome e endereço residencial são informações textuais. Textos são compostos por caracteres do alfabeto, de pontuação, acentuação, dentre outros.
 
-Nesta parte do curso, vamos trabalhar com elementos do tipo `char` (caracter) e do tipo `string` (cadeia de caracteres).
+Nesta parte do curso, vamos trabalhar com elementos do tipo `char` (caractere) e do tipo `string` (cadeia de caracteres).
 
 # Tipo Char
 
