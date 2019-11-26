@@ -108,7 +108,7 @@ há 25 letras e 7 palavras.
 
 # Strings
 
-Ler material sobre Strings em C antes de olhar o material sobre strings em C++ a seguir.
+Ler material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) antes de olhar o material apresentado a seguir sobre _strings em C++_.
 
 
 ## Leitura de strings
@@ -124,7 +124,7 @@ cin >> x;
 
 ## Leitura de strings
 
-`cin >>` lê a entrada até encontrar um espaço em branco (espaço, tab, quebra de linha etc.), mas não remove esse espaço em branco da entrada.
+`cin >>` lê a entrada até encontrar um espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha etc.), mas não remove esse espaço em branco da entrada.
 
 `getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e remove a quebra de linha da entrada. A variável recebe todo o conteúdo antes da quebra de linha.
 
@@ -196,7 +196,7 @@ int main() {
 
 ## Substrings
 
-`str.substr(pos, comprimento)` - retorna uma nova string com `comprimento` caracteres a partir da posição `pos`. Exemplo:
+`str.substr(pos, comprimento)` - retorna uma nova string com `comprimento` caracteres a partir da posição `pos`. 
 
 ---
 
