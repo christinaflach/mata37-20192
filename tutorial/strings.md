@@ -117,32 +117,87 @@ Refazer o exercício 2 em C++, usando as operações sobre o tipo char.
 
 ---
 
-# Strings em C
+# Strings
 
-No curso, usaremos exemplos em C++ para trabalhar com strings. Para leitura complementar, se houver interesse, o capítulo 21 do material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) da USP apresenta conceitos e exemplos sobre manipulação de strings em C com a biblioteca de funções para manipular strings _string.h_.
+_Strings_ (ou cadeias de caracteres) representam sequências de caracteres.
 
-# Strings em C++
+## Strings em C
 
-## Leitura de strings
+Neste curso, usaremos **C++** para trabalhar com strings. 
+Para leitura complementar, se houver interesse, o capítulo 21 do material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) da USP apresenta conceitos 
+e exemplos sobre manipulação de strings em C com a biblioteca de funções para manipular strings _string.h_.
+
+## Strings em C++
+
+_String_ é um tipo composto em C++. Para usar suas funções, deve-se incluir o cabeçalho
+_<string>_: 
+
+## Exemplos
+
+```c++
+// my first string
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  string mystring;
+  mystring = "Isto é uma cadeia de caracteres";
+  cout << mystring;
+  return 0;
+}
+```
+
+```c++
+// my second string
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  string mystring;
+  mystring = "Isto é uma cadeia de caracteres";
+  cout << mystring << endl;
+  
+  // outro valor é atribuído
+  mystring = "Esta é outra cadeia de caracteres";
+  cout << mystring << endl;
+  return 0;
+}
+```
+
+## Leitura de strings em C++
+
+O operador de extração (_>>_) pode ser usado em _cin_ para leitura de cadeias de caracteres  da entrada padrão:
+```c++
+string x;
+
+cin >> x;
+```
+
+O `cin >> x` lê a entrada até encontrar um caractere de espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha, etc.), mas **não remove esse caractere da entrada**.
+
+Para ler uma linha inteira a partir de _cin_, a função _getline_ pode ser usada. Ele recebe _cin_ como primeiro argumento e a variável do tipo _string_ como segundo argumento.
 
 ```c++
 string x;
 
 getline(cin, x);
-cin >> x;
 ```
 
 ## Leitura de strings
 
-`cin >>` lê a entrada até encontrar um caractere de espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha, etc.), mas **não remove esse caractere da entrada**.
++ `cin >>` lê a entrada até encontrar um caractere de espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha, etc.), mas **não remove esse caractere da entrada**. Pode-se considerar que é feita a leitura de uma "palavra" e não de todo o conteúdo antes da quebra de linha.
 
-`getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e **remove a quebra de linha da entrada**. 
++ `getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e **remove a quebra de linha da entrada**. 
 A variável recebe todo o conteúdo antes da quebra de linha.
 
 
 ## Leitura de strings
 
-Isso causa problemas ao usar o `getline` após o `cin >>`. 
+Usar o `getline` após o `cin >>` pode levar a algum problema ou erro.
 Para resolver, use `cin.ignore()` (descarta o próximo caractere da entrada) ou então `cin >> ws` (descarta todos os caracteres em branco consecutivos da entrada):
 
 ```c++
@@ -223,8 +278,6 @@ cout << frase.find(palavra) << endl;
 // saída: 2
 ```
 
-
-
 ## Busca em strings
 
 - `str.find(trecho)`
@@ -285,4 +338,8 @@ int main() {
   return 0;
 }
 ```
+
+## A classe String em C++
+
++ http://www.cplusplus.com/reference/string/string/
 
