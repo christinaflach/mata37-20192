@@ -1,5 +1,6 @@
+# Repetição
 
-# Motivação
+## Motivação
 
 **Problema**: Seu programa deve calcular a média aritmética de quatro notas de um aluno e informar se o aluno foi aprovado. Se a média for menor do que 7.0, o aluno deve ser reprovado.
 
@@ -30,7 +31,7 @@ int main() {
 
 ---
 
-# Como calcular a média para 30 alunos?
+## Como calcular a média para 30 alunos?
 
 **Problema**: Seu programa deve calcular a média aritmética de quatro notas de 30 alunos. Alunos com média menor do que 7.0 estão reprovados.
 
@@ -70,7 +71,7 @@ int main() {
 
 ---
 
-# Sumário
+## Sumário
 
 Nesta aula vamos ver como executar as instruções de um programa repetidas vezes.
 
@@ -81,7 +82,7 @@ Veremos dois tipos de repetição:
 
 ---
 
-# for - Repetição de contagem
+## for - Repetição de contagem
 
 ```c++
 for ( <inicialização> ; <condição> ; <incremento> ) {
@@ -95,7 +96,7 @@ Se houver apenas uma instrução, as chaves (`{` e `}`) são opcionais.
 
 ---
 
-## Média aritmética para 30 alunos
+### Média aritmética para 30 alunos
 
 
 ```c++
@@ -125,7 +126,7 @@ int main() {
 
 ---
 
-# Definições
+## Definições
 
 Um **loop** (ou laço) é uma sequência de instruções que é executada repetidamente.
 
@@ -201,7 +202,7 @@ int main () {
 
 ---
 
-# E se a quantidade não for conhecida? 
+## E se a quantidade não for conhecida? 
 
 **Descrição**: Seu programa deve calcular a média aritmética de quatro notas de N alunos. Alunos com média menor do que 7.0 estão reprovados.
 
@@ -227,7 +228,7 @@ Se houver apenas uma instrução, as chaves (`{` e `}`) são opcionais.
 
 ---
 
-## Média aritmética de N alunos
+### Média aritmética de N alunos
 
 ```c++
 #include <iostream>
@@ -253,7 +254,7 @@ int main() {
 
 ---
 
-# do..while - Repetição pós-testada
+## do..while - Repetição pós-testada
 
 O `do..while` funciona de forma similar ao while; a diferença é que a condição é testada no **final** de cada iteração.
 
@@ -267,7 +268,7 @@ do {
 
 ---
 
-## Média aritmética de N alunos - do..while
+### Média aritmética de N alunos - do..while
 
 ```c++
 #include <iostream>
@@ -293,7 +294,7 @@ int main() {
 
 ---
 
-# Equivalência entre for e while
+## Equivalência entre for e while
 
 ```c++
 for (i = 0; i < n; i++) {
@@ -313,7 +314,7 @@ while (i < n) {
 
 ---
 
-# Artifício para leitura de sequências de números finalizadas com zero
+## Artifício para leitura de sequências de números finalizadas com zero
 
 Leia um número e imprima o dobro, repetidamente. Pare quando o número for 0:
 
@@ -336,13 +337,13 @@ int main() {
 `(cin >> i)` lê um número da entrada padrão, atribui o número à variável `i`, e retorna falso se a leitura não é bem sucedida.
 
 
-# Leia sobre os comandos `break` e `continue`
+## Leia sobre os comandos `break` e `continue`
 
 Pesquise sobre estes dois comandos da linguagem C e como podem ser usados em comandos de repetição.
 
 
 ---
 
-Parte deste material foi baseado nos slides do prof. Mauricio Pamplona
-e nos slides do Prof. Rodrigo Rocha.
+Parte deste material teve como base os slides do prof. Mauricio Pamplona
+e os slides do Prof. Rodrigo Rocha.
 
