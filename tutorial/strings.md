@@ -1,4 +1,4 @@
-# Strings
+# Strings e Tipo `Char`
 
 ## Créditos
 
@@ -20,11 +20,12 @@ Nesta parte do curso, vamos trabalhar com elementos do tipo `char` (caracter) e 
 
 # Tipo Char
 
-O tipo `char`
+Um caractere pode ser uma letra (maiúscula ou minúscula), um ponto final, um ponto de interrogação, enfim, um símbolo que normalmente são encontrados
+no teclado do computador.
 
-Existe uma forma para representar caracteres utilizando apenas números.
+Em C, caracteres são armazenados como números inteiros.
 
-Considere o seguinte programa
+Considere o seguinte programa:
 
 ```c++
 #include <iostream>
@@ -43,7 +44,6 @@ int main() {
 
 Agora troque `int` por `char`. O que acontece?
 
----
 
 ## Tabela ASCII
 
@@ -51,8 +51,14 @@ Cada caractere é codificado através de um byte, ou seja, um número entre 0 e 
 
 Assim, `char x = 'A';` e `char x = 65;` são equivalentes.
 
----
+Quando se digita a letra A no teclado, o computador armazena na memória o número inteiro 65.
 
+## Declaração de variável do tipo `char`
+
+Declaração de uma variável do tipo char de nome "ch":
+
+```char ch;```
+ 
 ## Operações sobre o tipo char
 
 Use `#include <cctype>`. 
@@ -65,10 +71,26 @@ Use `#include <cctype>`.
 - `isblank(c)` - checa se é um caracter em branco (espaço, tab, quebra de linha...)
 - e [outras](http://www.cplusplus.com/reference/cctype/)...
 
+## Caracteres de controle
+
+Os caracteres com código decimal entre 0 e 31 são chamados de caracteres de controle. Exemplos: 
+
++ `linefeed` tem código 10 e tem como significado "pula uma linha"
++ `carriage return` tem código 13 e tem como significado "o cursor vai para a primeira coluna"
+
+## Exercício 1
+
+Faça um programa em C que imprima todos os caracteres cujo códigos ASCII estão entre 32 e 126.
+
+## Exercício 2
+
+Faça um programa em C que lê caracteres do teclado e, para cada caractere lido, imprime se o mesmo é letra maiúscula, letra minúscula,  dígito ou outro qualquer.
+
 ---
 
 # Strings
 
+Ler material sobre Strings em C antes de olhar o material sobre strings em C++ a seguir.
 
 
 ## Leitura de strings
