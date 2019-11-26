@@ -58,8 +58,48 @@ Quando se digita a letra A no teclado, o computador armazena na memória o núme
 Declaração de uma variável do tipo char de nome "ch":
 
 ```char ch;```
- 
-## Operações sobre o tipo char
+
+## Caracteres de controle
+
+Os caracteres com código decimal entre 0 e 31 são chamados de caracteres de controle. Exemplos: 
+
++ `linefeed` tem código 10 e tem como significado "pula uma linha"
++ `carriage return` tem código 13 e tem como significado "o cursor vai para a primeira coluna"
+
+## Leitura e impressão de caracteres em C
+
+Ler [capítulo 20 do material da USP](https://www.ime.usp.br/~hitoshi/introducao/20-caracteres.pdf).
+Observar que são usadas as funções scanf e printf de C no material acima.
+
+## Exercícios
+
+### Exercício 1
+
+Faça um programa em C que imprima todos os caracteres cujo códigos ASCII estão entre 32 e 126.
+
+### Exercício 2
+
+Faça um programa em C que lê caracteres do teclado e, para cada caractere lido, imprime se o mesmo é letra maiúscula, 
+letra minúscula, dígito ou outro qualquer.
+
+### Exercício 3
+
+Leia uma sequência de caracteres terminada por um ponto ’.’ a partir do teclado (representando uma frase), 
+e determine a frequência relativa de vogais no texto (por exemplo, no texto “Em terra de cego quem tem um olho é caolho”, 
+essa frequência é 16/42).
+
+### Exercício 4
+
+Dada uma frase terminada por ’.’, imprimir o comprimento da palavra mais longa.
+
+### Exercício 5
+
+Dada uma frase terminada por ’.’, 
+determinar quantas letras e quantas palavras aparecem no texto. 
+Por exemplo, no texto “O voo GOL547 saiu com 10 passageiros.” 
+há 25 letras e 7 palavras.
+
+## Operações sobre o tipo char (C++)
 
 Use `#include <cctype>`. 
 
@@ -71,45 +111,18 @@ Use `#include <cctype>`.
 - `isblank(c)` - checa se é um caracter em branco (espaço, tab, quebra de linha...)
 - e [outras](http://www.cplusplus.com/reference/cctype/)...
 
-## Caracteres de controle
+### Exercício 6
 
-Os caracteres com código decimal entre 0 e 31 são chamados de caracteres de controle. Exemplos: 
-
-+ `linefeed` tem código 10 e tem como significado "pula uma linha"
-+ `carriage return` tem código 13 e tem como significado "o cursor vai para a primeira coluna"
-
-### Exercício 1
-
-Faça um programa em C que imprima todos os caracteres cujo códigos ASCII estão entre 32 e 126.
-
-### Exercício 2
-
-Faça um programa em C que lê caracteres do teclado e, para cada caractere lido, imprime se o mesmo é letra maiúscula, letra minúscula,  dígito ou outro qualquer.
-
-### Exercício 3
-
-Leia uma sequência de caracteres terminada por um ponto ’.’ a partir do teclado (representando uma frase), e determine a frequência relativa de vogais no texto (por exemplo, no texto “Em terra de cego quem tem um olho é caolho”, 
-essa frequência é 16/42).
-
-
-### Exercício 4
-
-Dada uma frase terminada por ’.’, imprimir o comprimento da palavra mais longa.
-
-### Exercício 5
-
-Dada uma frase terminada por ’.’, i
-determinar quantas letras e quantas palavras aparecem no texto. 
-Por exemplo, no texto “O voo GOL547 saiu com 10 passageiros.” 
-há 25 letras e 7 palavras.
-
+Refazer o exercício 2 em C++, usando as operações sobre o tipo char.
 
 ---
 
-# Strings
+# Strings em C
 
-Ler material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) antes de olhar o material apresentado a seguir sobre _strings em C++_.
+Ler material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) 
+antes de olhar o material apresentado a seguir sobre _Strings em C++_.
 
+# Strings em C++
 
 ## Leitura de strings
 
@@ -120,16 +133,12 @@ getline(cin, x);
 cin >> x;
 ```
 
----
-
 ## Leitura de strings
 
 `cin >>` lê a entrada até encontrar um espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha etc.), mas não remove esse espaço em branco da entrada.
 
 `getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e remove a quebra de linha da entrada. A variável recebe todo o conteúdo antes da quebra de linha.
 
-
----
 
 ## Leitura de strings
 
@@ -143,8 +152,6 @@ cin >> idade;
 cin.ignore();
 getline(cin, x);
 ```
-
----
 
 ## Fim de arquivo (EOF, end-of-file)
 
