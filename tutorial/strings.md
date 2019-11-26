@@ -120,7 +120,8 @@ Refazer o exercício 2 em C++, usando as operações sobre o tipo char.
 # Strings em C
 
 Ler material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) 
-antes de olhar o material apresentado a seguir sobre _Strings em C++_.
+antes de olhar o material apresentado a seguir sobre _Strings em C++_. Em especial, leia sobre
+_Leitura de Strings em C_ antes de partir para os exemplos em C++.
 
 # Strings em C++
 
@@ -135,14 +136,16 @@ cin >> x;
 
 ## Leitura de strings
 
-`cin >>` lê a entrada até encontrar um espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha etc.), mas não remove esse espaço em branco da entrada.
+`cin >>` lê a entrada até encontrar um caractere de espaço em branco (_caractere de controle_ como espaço, tab, quebra de linha, etc.), mas **não remove esse caractere da entrada**.
 
-`getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e remove a quebra de linha da entrada. A variável recebe todo o conteúdo antes da quebra de linha.
+`getline(cin, variavel)` lê a entrada até encontrar uma quebra de linha, e **remove a quebra de linha da entrada**. 
+A variável recebe todo o conteúdo antes da quebra de linha.
 
 
 ## Leitura de strings
 
-Isso causa problemas ao usar o `getline` após o `cin >>`. Para resolver, use `cin.ignore()` (descarta o próximo caractere da entrada) ou então `cin >> ws` (descarta todos os caracteres em branco consecutivos da entrada):
+Isso causa problemas ao usar o `getline` após o `cin >>`. 
+Para resolver, use `cin.ignore()` (descarta o próximo caractere da entrada) ou então `cin >> ws` (descarta todos os caracteres em branco consecutivos da entrada):
 
 ```c++
 int idade;
@@ -156,13 +159,12 @@ getline(cin, x);
 ## Fim de arquivo (EOF, end-of-file)
 
 Para saber se a entrada acabou, use `cin.eof()`.
-Se a entrada é do teclado, o "fim de arquivo" é obtido pressionando Ctrl+D (Linux, Mac) ou Ctrl+Z, Enter (Windows)
+Se a entrada é do teclado, o "fim de arquivo" é obtido pressionando Ctrl+D (Linux, Mac) ou Ctrl+Z, Enter (Windows).
 
  Ex.:
 
 ```c++
-// Programa que lê uma linha e
-// imprime a linha lida, até
+// Programa que lê uma linha e imprime a linha lida, até
 // encontrar o final da entrada.
 #include <iostream>
 #include <string>
@@ -205,7 +207,7 @@ int main() {
 
 `str.substr(pos, comprimento)` - retorna uma nova string com `comprimento` caracteres a partir da posição `pos`. 
 
----
+
 
 ## Busca em strings
 
@@ -223,7 +225,7 @@ cout << frase.find(palavra) << endl;
 // saída: 2
 ```
 
----
+
 
 ## Busca em strings
 
@@ -231,7 +233,9 @@ cout << frase.find(palavra) << endl;
 - `str.rfind(trecho)`
 
 O retorno é do tipo size_t (que é efetivamente um inteiro sem sinal).
-Se o trecho não for encontrado, retorna `string::npos`. Ex.:
+Se o trecho **não for encontrado**, retorna `string::npos`. 
+
+Ex.:
 
 ```c++
 string frase = "o rato roeu a roupa";
@@ -245,11 +249,9 @@ if (pos == string::npos) {
 cout << endl;
 ```
 
----
-
 ## Busca em strings
 
-Opcionalmente, pode-passar um parâmetro a mais, `posicao`:
+Opcionalmente, pode-se passar um parâmetro a mais, `posicao`:
 
 - `str.find(trecho, posicao)` - busca o trecho a partir da posição `posicao`.
 - `str.rfind(trecho, posicao)` - busca o trecho considerando apenas sequências de caracteres iniciadas na posição `posicao` ou posições anteriores.
@@ -258,7 +260,7 @@ Opcionalmente, pode-passar um parâmetro a mais, `posicao`:
 
 ## Exemplo: extrair dados de arquivo HTML
 
-Dada uma string, extraia cada trecho contido entre as tags `<b>` e `</b>` e imprima um trecho por linha. (Exemplo: CifraClub)
+Dada uma string, extraia cada trecho contido entre as tags `<b>` e `</b>` e imprima um trecho por linha.
 
 ```c++
 #include <iostream>
