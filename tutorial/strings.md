@@ -78,13 +78,31 @@ Os caracteres com código decimal entre 0 e 31 são chamados de caracteres de co
 + `linefeed` tem código 10 e tem como significado "pula uma linha"
 + `carriage return` tem código 13 e tem como significado "o cursor vai para a primeira coluna"
 
-## Exercício 1
+### Exercício 1
 
 Faça um programa em C que imprima todos os caracteres cujo códigos ASCII estão entre 32 e 126.
 
-## Exercício 2
+### Exercício 2
 
 Faça um programa em C que lê caracteres do teclado e, para cada caractere lido, imprime se o mesmo é letra maiúscula, letra minúscula,  dígito ou outro qualquer.
+
+### Exercício 3
+
+Leia uma sequência de caracteres terminada por um ponto ’.’ a partir do teclado (representando uma frase), e determine a frequência relativa de vogais no texto (por exemplo, no texto “Em terra de cego quem tem um olho é caolho”, 
+essa frequência é 16/42).
+
+
+### Exercício 4
+
+Dada uma frase terminada por ’.’, imprimir o comprimento da palavra mais longa.
+
+### Exercício 5
+
+Dada uma frase terminada por ’.’, i
+determinar quantas letras e quantas palavras aparecem no texto. 
+Por exemplo, no texto “O voo GOL547 saiu com 10 passageiros.” 
+há 25 letras e 7 palavras.
+
 
 ---
 
