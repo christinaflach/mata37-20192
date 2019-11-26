@@ -119,9 +119,7 @@ Refazer o exercício 2 em C++, usando as operações sobre o tipo char.
 
 # Strings em C
 
-Ler material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) 
-antes de olhar o material apresentado a seguir sobre _Strings em C++_. Em especial, leia sobre
-_Leitura de Strings em C_ antes de partir para os exemplos em C++.
+No curso, usaremos exemplos em C++ para trabalhar com strings. Para leitura complementar, se houver interesse, o capítulo 21 do material sobre [Strings em C](https://www.ime.usp.br/~hitoshi/introducao/21-strings.pdf) da USP apresenta conceitos e exemplos sobre manipulação de strings em C com a biblioteca de funções para manipular strings _string.h_.
 
 # Strings em C++
 
