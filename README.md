@@ -70,7 +70,7 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 + [Funções 1](https://rodrigorgs.github.io/aulas/mata37/funcoes#1), [Funções 2](https://www.ime.usp.br/~hitoshi/introducao/16-funcao02.pdf), [Prática](tutorial/aulapratica-funcao.md)
 + [Funções recursivas](tutorial/recursao.md)
 + [Vetores](https://rodrigorgs.github.io/aulas/mata37/vetores#1)
-+ Strings
++ [Tipo Char e Strings](tutorial/strings.md)
 + Matrizes
 + Ordenação e Busca Binária
 
