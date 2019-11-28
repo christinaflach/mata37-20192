@@ -75,18 +75,27 @@ Observar que são usadas as funções scanf e printf de C no material acima.
 
 ### Exercício 1
 
+Ver no REPL.IT >> Q09. 
 Faça um programa em C que imprima todos os caracteres cujo códigos ASCII estão entre 32 e 126.
 
 ### Exercício 2
 
+Ver no REPL.IT >> Q10. 
 Faça um programa em C que lê caracteres do teclado e, para cada caractere lido, imprime se o mesmo é letra maiúscula, 
 letra minúscula, dígito ou outro qualquer.
 
 ### Exercício 3
 
-Leia uma sequência de caracteres terminada por um ponto ’.’ a partir do teclado (representando uma frase), 
-e determine a frequência relativa de vogais no texto (por exemplo, no texto “Em terra de cego quem tem um olho é caolho”, 
-essa frequência é 16/42).
+Ver no REPL.IT >> Q11. 
+(Tipo Char)  Leia uma sequência de caracteres terminada por um ponto ’.’  (representando uma frase), e imprima a frequência relativa de vogais na frase, no formato número de vogais"/"número de caracteres. 
+Por exemplo, no texto “Em terra de cego quem tem um olho é caolho.”
+essa frequência é 16/42 (16 vogais para 42 caracteres  -- desconsiderar o ponto '.').
+
+Entrada.
+Em terra de cego quem tem um olho é caolho.
+
+Saída.
+16/42
 
 ### Exercício 4
 
@@ -309,7 +318,7 @@ Opcionalmente, pode-se passar um parâmetro a mais, `posicao`:
 
 ---
 
-## Exemplo: extrair dados de arquivo HTML
+## Exercício 7: extrair dados de arquivo HTML
 
 Dada uma string, extraia cada trecho contido entre as tags `<b>` e `</b>` e imprima um trecho por linha.
 
@@ -338,6 +347,17 @@ int main() {
   return 0;
 }
 ```
+
+### Exercício 8: come.cpp
+
+**Descrição: **
+
+Seu programa deve ler uma palavra com letras minúsculas e imprimí-la sem vogais.
+
+Entrada: A entrada é composta por uma palavra com letras minúsculas.
+
+Saída: Seu programa deve imprimir uma linha contendo a palavra de entrada sem vogais.
+
 
 ## A classe String em C++
 
