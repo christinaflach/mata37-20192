@@ -72,7 +72,7 @@ Algoritmos-Lógica para Desenvolvimento de Programação. Editora Erica.
 + [Vetores](https://rodrigorgs.github.io/aulas/mata37/vetores#1)
 + [Tipo Char e Strings](tutorial/strings.md)
 + Matrizes
-+ Ordenação e Busca Binária
++ [Ordenação e Busca Binária](https://www.slideshare.net/xrodrigorgs/aula-busca-e-ordenao)
 
 (Prova 02: 5/12) - revisado
 
