@@ -1,0 +1,62 @@
+Prova 2b
+
+1. (Vetores). Considere N (0 < N ≤ 100), um inteiro positivo M e N números inteiros. Você terá que ordenar estes N números em ordem ascendente de seu módulo M. 
+Regras: 
+a) Se houver um empate entre um número ímpar e um número par (para os quais o seu módulo M dá o mesmo valor) 
+então o número impar irá preceder o número par. 
+b) Se houver um empate entre dois números ímpares (para os quais o seu módulo M dá o mesmo valor), 
+então o menor número ímpar irá preceder o maior número ímpar. 
+c) Se houver um empate entre dois números pares (para os quais o seu módulo M dá o mesmo valor), 
+então o maior número par irá preceder o menor número par. 
+
+Para o resto de valores negativos siga a regra de linguagem de programação C: 
+
+d) um número negativo nunca pode ter módulo maior do que zero. 
+Por exemplo, -100 MOD 3 = -1, -100 MOD 4 = 0, etc.
+
+Estruture seu programa com uma função main() e uma função para ordenar  (e apenas ordenar)
+um vetor de inteiros seguindo as regras acima (a, b, c e d).
+
+Entrada
+A entrada contém vários casos de teste. Cada caso de teste inicia com dois inteiros  N (0 < N ≤ 10000) e M (0 < M ≤ 10000) que denotam quantos números existirão neste conjunto. Cada uma das próximas N linhas conterá um número inteiro cada, no intervalo [-10000, +10000] - {0} (não inclui o zero). A entrada é terminada por uma linha que conterá um valor nulo (0) e não deve ser processada.
+
+Saída
+A primeira linha de cada conjunto de saída conterá os valores de N e M. As próximas N linhas conterão  N números, ordenados de acordo com as regras acima mencionadas. 
+
+Exemplo de Entrada     Exemplo de Saída       Comentário da professora
+15 3                                  15 3                               // Imprime N e M
+1                                       3                                    // 3 mod 3 é 0 (zero), regras a) e b)
+2                                       9                                    // regra b)
+3                                       15                                  // regra b)
+4                                       12                                  // regra a)
+5                                       6                                    // 6 mod 3 é zero,  regra c)
+6                                       1                                    // 1 mod 3 é 1
+7                                       7
+8                                       13
+9                                       10
+10                                     4
+11                                     5                                   // 11 mod 3 é 2
+12                                     11
+13                                     14
+14                                     8
+15                                     2                                  // 2 mod 3 é 2, e 2 é o menor número par que tem resto 2.
+0
+
+
+2. (Vetores e Funções) O seu objetivo é determinar o menor número de trocas de elementos de uma da sequência que leva uma sequência ordenada em ordem decrescente.  Buscamos o número mínimo de trocas que ordena a sequência dada. 
+Usar uma função que implementa a permuta de elementos do vetor e conta trocas,  e que retorna o número de trocas.
+Exemplo. Para obter a sequência  5 4 3 2 1 a partir de 2 3 4 5 1, serão necessárias 6 trocas, no mínimo, que jogarão o número 5 para a primeira posição do vetor, o número 4 para a segunda posição,  e 3 para a terceira posição.
+
+Entrada
+A primeira linha lida possui um inteiro N (1 ≤ N ≤ 150) indicando o número de inteiros na sequência. A segunda linha contém uma permutação dos inteiros 1, 2, ... , N separados por espaço.
+
+Saída
+Imprima uma linha contendo o número mínimo de trocas que ordena a sequência dada na ordem definida.
+
+
+Exemplo de Entrada       Exemplo de Saída
+5                                         6
+2 3 4 5 1
+
+
+
